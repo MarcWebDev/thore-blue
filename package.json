@@ -1,20 +1,31 @@
 {
   "name": "thore-blue",
-  "displayName": "thore-blue",
+  "displayName": "Thore Blue",
   "description": "Thore blue is a theme I created for fun to style VSC exactly how I want it to look.",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "MarcWebDev",
   "engines": {
     "vscode": "^1.77.0"
+  },
+  "icon": "icons/Thore-Blue.png",
+  "author": {
+    "name": "Marc Hoffmann",
+    "email": "jackob.dev@gmail.com",
+    "url": "https://github.com/MarcWebDev"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "url": "https://github.com/MarcWebDev/thore-blue.git",
+    "type": "git"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Thore Blue",
         "uiTheme": "vs-dark",
-        "path": "./themes/Thore Blue-color-theme.json"
+        "path": "./themes/thore-blue-color-theme.json"
       }
     ]
   }
