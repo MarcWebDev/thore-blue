@@ -1,0 +1,21 @@
+{
+  "name": "thore-blue",
+  "displayName": "thore-blue",
+  "description": "Thore blue is a theme I created for fun to style VSC exactly how I want it to look.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Thore Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thore Blue-color-theme.json"
+      }
+    ]
+  }
+}
